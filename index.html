@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap"
+    rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>E-Ticket Management</title>
+  </head>
+  <body class="container">
+    <!-- navbar starts -->
+    <section class="container">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-4xl font-extrabold">E-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About </a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn text-emerald-500 font-bold">Bus <img src="images/bus-icon.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <!-- navbar ends -->
+    <section class="">
+        <div class="container hero min-h-screen relative" style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-4xl font-bold w-full">End-to-End Travel with <br> <span class="text-green-600">E Paribahan</span></h1>
+                <p class="mb-5 ">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                <button class="btn bg-green-600 border-none text-xl font-bold">Buy Tickets</button>
+              </div>
+            </div>
+            <div class=" absolute mx-auto items-center justify-center -mb-[96px] bottom-0 gap-y-8 lg:grid grid-cols-3">
+                <div class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl ">
+                    <img src="images/people.png" alt="">
+                    <div>
+                        <h3 class="text-2xl font-bold sm:text-sm">500K+</h3>
+                        <p>Registered users</p>
+                    </div>
+                </div>
+                <div class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl">
+                    <img src="images/ticket-cupon.png" alt="">
+                    <div>
+                        <h3 class="text-2xl font-bold sm:text-sm">1.7 lacks</h3>
+                        <p>Tickets sold</p>
+                    </div>
+                </div>
+                <div class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl">
+                    <img src="images/stoppage.png" alt="">
+                    <div>
+                        <h3 class="text-2xl font-bold ">80K+</h3>
+                        <p>Rental partners</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+    </section>
+    <!-- coupon part starts -->
+    <section class="container">
+        <p class="text-center text-4xl font-bold mb-6 mt-20">Best offers for you</p>
+        <div class=" container flex w-full justify-around mx-auto ">
+            <div class="flex bg-amber-500 items-center rounded-3xl px-6">
+                <div class="">
+                    <h3 class="text-xl font-medium">15% OFF <br>on your next purchase</h3>
+                    <p>use by January 2024</p>
+                </div>
+                <div><img src="images/cupon-devider.png" alt=""></div>
+                <div>
+                    <h3 class="text-xl font-medium">NEW15</h3>
+                    <p>Coupon Code</p>
+                </div>
+            </div>
+            <div class="flex bg-pink-400 items-center rounded-3xl px-6">
+                <div class="">
+                    <h3 class="text-xl font-medium">20% OFF <br>on your next purchase</h3>
+                    <p>use by January 2024</p>
+                </div>
+                <div><img src="images/cupon-devider.png" alt=""></div>
+                <div>
+                    <h3 class="text-xl font-medium">Couple 20</h3>
+                    <p> Coupon Code</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-outline btn-success ml-[48%] mt-4">See All Offers</button>
+        </div>
+    </section>
+    <!-- coupon part ends  -->
+
+    <!-- footer starts -->
+    <section class="container">
+        <footer class="container bg-slate-900 text-white mx-auto">
+            <div class="grid grid-cols-2 m-10 p-14 items-center justify-center">
+                <div>
+                    <h3>E-Ticket</h3>
+                    <p>E-Ticket is a digital platform to make your daily commuting better.</p>
+                </div>
+                <div>
+                    <p>Download our app</p>
+                    <img src="images/playstore.svg" alt="">
+                </div>
+            </div>
+            <hr class="w-full border-dotted text-white">
+            <div class="grid grid-cols-2 items-center justify-center pb-10 pl-20 mt-10">
+                <p>@all rights reserved, P-Ticket services limited.2024</p>
+                <div class="flex gap-5">
+                    <p>Terms & condition</p>
+                    <p>Return & refund policy</p>
+                    <p>Privacy policy</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- footer ends  -->
+    <script src="index.js"></script>
+  </body>
+</html>
