@@ -8,6 +8,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -189,7 +190,7 @@
           <div class="grid grid-cols-1 w-full mt-14 ml-52 p-4">
             <div class="flex">
               <img class="w-7 h-7" src="images/seat-green.png" alt="" />
-              <p class="text-lime-700 sm:w-full -mr-12">40 Seats Left</p>
+              <p class="text-lime-700 sm:w-full -mr-12"><span id="seatRemaining">16</span> Seats Left</p>
             </div>
             <div>
               <p>Dhaka-Sylhet</p>
@@ -235,68 +236,68 @@
         <div>
           <ul class="flex space-x-20 p-5">
             <li class="p-4 rounded-md">A</li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>A1</button>
+            <li id="A1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="">A1</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>A2</button>
+            <li id="A2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="A2">A2</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>A3</button>
+            <li id="A3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="A3">A3</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>A4</button>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">B</li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>B1</button>
-            </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>B2</button>
-            </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>B3</button>
-            </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>B4</button>
+            <li id="A4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="A4">A4</button>
             </li>
           </ul>
         </div>
         <div>
           <ul class="flex space-x-20 p-5">
             <li class="p-4 rounded-md">B</li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>C1</button>
+            <li id="B1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="B1">B1</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>C2</button>
+            <li id="B2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="B2">B2</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>C3</button>
+            <li id="B3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="B3">B3</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>C4</button>
+            <li id="B4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="B4">B4</button>
             </li>
           </ul>
         </div>
         <div>
           <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">B</li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>D1</button>
+            <li class="p-4 rounded-md">C</li>
+            <li id="C1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="C1">C1</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>D2</button>
+            <li id="C2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="C2">C2</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>D3</button>
+            <li id="C3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="C3">C3</button>
             </li>
-            <li class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button>D4</button>
+            <li id="C4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="C4">C4</button>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex space-x-20 p-5">
+            <li class="p-4 rounded-md">D</li>
+            <li id="D1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="D1">D1</button>
+            </li>
+            <li  id="D2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="D2">D2</button>
+            </li>
+            <li id="D3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="D3">D3</button>
+            </li>
+            <li id="D4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+              <button class="D4">D4</button>
             </li>
           </ul>
         </div>
@@ -304,24 +305,16 @@
       <div>
         <p class="text-2xl font-semibold mb-5">Select Your Seat</p>
         <div class="">
-          <div class="flex space-x-16 mb-5">
-            <p class="font-bold">Seat <span class="text-lime-700">2</span></p>
+          <div id="soldTicket" class="grid grid-cols-3 space-x-16 mb-5 bg-slate-200">
+            <p  class="font-bold">Seat <span id="seatSelected" class="text-lime-700">0</span></p>
             <p class="font-bold">Class</p>
             <p class="font-bold">Price</p>
           </div>
-          <div class="flex space-x-16 mb-5">
-            <p>C2</p>
-            <p>Economy</p>
-            <p>550</p>
-          </div>
-          <div class="flex space-x-16 mb-5">
-            <p>C2</p>
-            <p>Economy</p>
-            <p>550</p>
-          </div>
+
+
           <div class="flex space-x-24 mb-5">
             <p class="font-bold">Total price</p>
-            <p>BDT 1100</p>
+            <p>BDT <span id="totalCost">0</span></p>
           </div>
           <div class="mb-5">
             <input type="text" placeholder="Have Any Coupon" />
@@ -329,7 +322,7 @@
           </div>
           <div class="flex space-x-24 mb-5">
             <p class="font-bold">Grand Total</p>
-            <p>BDT 1100</p>
+            <p>BDT <span id="totalGrandCost">0</span></p>
           </div>
           <p class="mb-5 font-bold">Passenger Name</p>
           <input
@@ -406,6 +399,6 @@
       </footer>
     </section>
     <!-- footer ends  -->
-    <script src="index.js"></script>
+    <script src="utility.js"></script>
   </body>
 </html>
