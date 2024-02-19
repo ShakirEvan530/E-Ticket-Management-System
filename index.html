@@ -152,7 +152,7 @@
             </div>
             <div><img src="images/cupon-devider.png" alt="" /></div>
             <div>
-              <h3 class="text-xl font-medium">Couple20</h3>
+              <h3 class="text-xl font-medium">Couple 20</h3>
               <p>Coupon Code</p>
             </div>
           </div>
@@ -317,9 +317,9 @@
               <p class="font-bold">Total price</p>
               <p>BDT <span id="totalCost">0</span></p>
             </div>
-            <div class="mb-5 ml-20">
-              <input class="p-2 rounded-md" type="text" placeholder="Have Any Coupon" />
-              <button class="bg-lime-800 p-2 rounded-lg text-white">apply</button>
+            <div id="buttonHide" class="mb-5 ml-20">
+              <input id="MyCouponApply" class="p-2 rounded-md" type="text" placeholder="Have Any Coupon" />
+              <button id="applyMyCoupon" onclick="discount()" class="bg-lime-800 p-2 rounded-lg text-white pointer-events-none opacity-50">apply</button>
             </div>
             <div class="flex space-x-24 mb-5  ml-20">
               <p class="font-bold">Grand Total</p>
@@ -343,7 +343,7 @@
               placeholder="Type here"
               class="input input-bordered input-sm w-full max-w-full mb-5"
             />
-            <button onclick="play()" class="p-3 w-full bg-lime-600">Next</button>
+            <button onclick="play()" id="hideButton" class="p-3 w-full bg-lime-600 pointer-events-none opacity-50">Next</button>
             <div class="flex gap-x-24">
               <p>Terms and Conditions</p>
               <p>Cancelation Policy</p>
@@ -404,5 +404,6 @@
     </section>
     <script src="utility.js"></script>
     <script src="showSuccess.js"></script>
+    <script src="coupon.js"></script>
   </body>
 </html>

@@ -17,6 +17,8 @@ function seatName(button){
       return;
   }
 
+  document.getElementById('hideButton').classList.remove('pointer-events-none','opacity-50')
+
   ticketRemainings--;
   seatDecrease.innerText= ticketRemainings;
   
@@ -42,5 +44,9 @@ function seatName(button){
   button.style.backgroundColor ='#1dd100';
   document.getElementById ('totalCost').innerText= 550*ticket;
   document.getElementById ('totalGrandCost').innerText= 550*ticket;
+
+  if(ticket===4){
+    document.getElementById('applyMyCoupon').classList.remove('pointer-events-none','opacity-50')
+  }
   
 }
