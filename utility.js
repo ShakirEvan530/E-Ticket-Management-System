@@ -3,6 +3,8 @@ let ticket = parseInt(seatNumber.innerText);
 const soldTicketName = document.getElementById('soldTicket');
 const seatDecrease = document.getElementById('seatRemaining');
 let ticketRemainings = parseInt(seatDecrease.innerText);
+const seatTaken = document.getElementById('seatSelectedByPassenger');
+let ticketTaken = parseInt(seatTaken.innerText);
 
 function seatName(button){
   if(ticket===4){
@@ -18,6 +20,9 @@ function seatName(button){
   ticketRemainings--;
   seatDecrease.innerText= ticketRemainings;
   
+  ticketTaken++;
+  seatTaken.innerText =ticketTaken;
+
   let paragraph = document.createElement('p')
   paragraph.innerText=button.id;
   soldTicketName.appendChild(paragraph);
