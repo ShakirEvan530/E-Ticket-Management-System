@@ -20,341 +20,375 @@
   </head>
   <body class="container">
     <!-- navbar starts -->
-    <section class="container">
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <section>
+      <section class="container">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-              </li>
-              <li><a>Item 3</a></li>
+            <a class="btn btn-ghost text-4xl font-extrabold">E-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About </a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-4xl font-extrabold">E-Ticket</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>About </a></li>
-            <li><a>Destination</a></li>
-            <li><a>Search</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn text-emerald-500 font-bold"
-            >Bus <img src="images/bus-icon.png" alt=""
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- navbar ends -->
-    <section class="bg-slate-400">
-      <div
-        class="container hero min-h-screen relative"
-        style="background-image: url(images/banner.png)"
-      >
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-4xl font-bold w-full">
-              End-to-End Travel with <br />
-              <span class="text-green-600">E Paribahan</span>
-            </h1>
-            <p class="mb-5">
-              Yes, you can run unit tests and view the results directly within
-              the app. The integrated testing features allow for a streamlined .
-            </p>
-            <button class="btn bg-green-600 border-none text-xl font-bold">
-              <a href="#connector">Buy Tickets</a>
-            </button>
+          <div class="navbar-end">
+            <a class="btn text-emerald-500 font-bold"
+              >Bus <img src="images/bus-icon.png" alt=""
+            /></a>
           </div>
         </div>
+      </section>
+      <!-- navbar ends -->
+      <section class="bg-slate-400">
         <div
-          class="absolute mx-auto items-center justify-center -mb-[96px] bottom-0 gap-y-8 lg:grid grid-cols-3"
+          class="container hero min-h-screen relative"
+          style="background-image: url(images/banner.png)"
         >
-          <div
-            class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
-          >
-            <img src="images/people.png" alt="" />
-            <div>
-              <h3 class="text-2xl font-bold sm:text-sm">500K+</h3>
-              <p>Registered users</p>
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-4xl font-bold w-full">
+                End-to-End Travel with <br />
+                <span class="text-green-600">E Paribahan</span>
+              </h1>
+              <p class="mb-5">
+                Yes, you can run unit tests and view the results directly within
+                the app. The integrated testing features allow for a streamlined .
+              </p>
+              <button class="btn bg-green-600 border-none text-xl font-bold">
+                <a href="#connector">Buy Tickets</a>
+              </button>
             </div>
           </div>
           <div
-            class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
+            class="absolute mx-auto items-center justify-center -mb-[96px] bottom-0 gap-y-8 lg:grid grid-cols-3"
           >
-            <img src="images/ticket-cupon.png" alt="" />
-            <div>
-              <h3 class="text-2xl font-bold sm:text-sm">1.7 lacks</h3>
-              <p>Tickets sold</p>
+            <div
+              class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
+            >
+              <img src="images/people.png" alt="" />
+              <div>
+                <h3 class="text-2xl font-bold sm:text-sm">500K+</h3>
+                <p>Registered users</p>
+              </div>
             </div>
-          </div>
-          <div
-            class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
-          >
-            <img src="images/stoppage.png" alt="" />
-            <div>
-              <h3 class="text-2xl font-bold">80K+</h3>
-              <p>Rental partners</p>
+            <div
+              class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
+            >
+              <img src="images/ticket-cupon.png" alt="" />
+              <div>
+                <h3 class="text-2xl font-bold sm:text-sm">1.7 lacks</h3>
+                <p>Tickets sold</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- coupon part starts -->
-    <section class="container">
-      <p class="text-center text-4xl font-bold mb-6 mt-20">
-        Best offers for you
-      </p>
-      <div class="container flex w-full justify-around mx-auto">
-        <div class="flex bg-amber-500 items-center rounded-3xl px-6">
-          <div class="">
-            <h3 class="text-xl font-medium">
-              15% OFF <br />on your next purchase
-            </h3>
-            <p>use by January 2024</p>
-          </div>
-          <div><img src="images/cupon-devider.png" alt="" /></div>
-          <div>
-            <h3 class="text-xl font-medium">NEW15</h3>
-            <p>Coupon Code</p>
-          </div>
-        </div>
-        <div class="flex bg-pink-400 items-center rounded-3xl px-6">
-          <div class="">
-            <h3 class="text-xl font-medium">
-              20% OFF <br />on your next purchase
-            </h3>
-            <p>use by January 2024</p>
-          </div>
-          <div><img src="images/cupon-devider.png" alt="" /></div>
-          <div>
-            <h3 class="text-xl font-medium">Couple 20</h3>
-            <p>Coupon Code</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <button class="btn btn-outline btn-success ml-[48%] mt-4">
-          See All Offers
-        </button>
-      </div>
-    </section>
-    <!-- coupon part ends  -->
-
-    <section class="container w-full grid grid-cols-2">
-      <div>
-        <div class="text-center w-full mt-10">
-          <h3 class="text-3xl font-bold -mr-80">E Paribahan</h3>
-          <p class="text-xlfont-normal -mr-80">
-            Yes, you can run unit tests and view the results directly within the
-            app. The integrated testing features allow for a streamlined .
-          </p>
-        </div>
-        <div class="lg:ml-10 sm:grid grid-cols-2">
-          <div class="flex border lg:m-10 bg-white lg:p-4 rounded-3xl gap-x-2">
-            <div>
-              <img src="images/bus-logo.png" alt="" />
-            </div>
-            <div>
-              <h3 class="text-2xl font-bold">Green Line PariBahan</h3>
-              <p>Coach-009-WEB ! AC_Business</p>
-              <div class="-mx-20 mt-5">
-                <p>Route :</p>
-                <p>Departure Time :</p>
+            <div
+              class="flex border border-b-lime-700 lg:m-10 bg-white lg:p-4 rounded-3xl"
+            >
+              <img src="images/stoppage.png" alt="" />
+              <div>
+                <h3 class="text-2xl font-bold">80K+</h3>
+                <p>Rental partners</p>
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-1 w-full mt-14 ml-52 p-4">
+        </div>
+      </section>
+      <!-- coupon part starts -->
+      <section class="container">
+        <p class="text-center text-4xl font-bold mb-6 mt-20">
+          Best offers for you
+        </p>
+        <div class="container flex w-full justify-around mx-auto">
+          <div class="flex bg-amber-500 items-center rounded-3xl px-6">
+            <div class="">
+              <h3 class="text-xl font-medium">
+                15% OFF <br />on your next purchase
+              </h3>
+              <p>use by January 2024</p>
+            </div>
+            <div><img src="images/cupon-devider.png" alt="" /></div>
+            <div>
+              <h3 class="text-xl font-medium">NEW15</h3>
+              <p>Coupon Code</p>
+            </div>
+          </div>
+          <div class="flex bg-pink-400 items-center rounded-3xl px-6">
+            <div class="">
+              <h3 class="text-xl font-medium">
+                20% OFF <br />on your next purchase
+              </h3>
+              <p>use by January 2024</p>
+            </div>
+            <div><img src="images/cupon-devider.png" alt="" /></div>
+            <div>
+              <h3 class="text-xl font-medium">Couple 20</h3>
+              <p>Coupon Code</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="btn btn-outline btn-success ml-[48%] mt-4">
+            See All Offers
+          </button>
+        </div>
+      </section>
+      <!-- coupon part ends  -->
+  
+      <section class="container w-full grid grid-cols-2">
+        <div>
+          <div class="text-center w-full mt-10">
+            <h3 class="text-3xl font-bold -mr-80">E Paribahan</h3>
+            <p class="text-xlfont-normal -mr-80">
+              Yes, you can run unit tests and view the results directly within the
+              app. The integrated testing features allow for a streamlined .
+            </p>
+          </div>
+          <div class="lg:ml-10 sm:grid grid-cols-2">
+            <div class="flex border lg:m-10 bg-white lg:p-4 rounded-3xl gap-x-2">
+              <div>
+                <img src="images/bus-logo.png" alt="" />
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold">Green Line PariBahan</h3>
+                <p>Coach-009-WEB ! AC_Business</p>
+                <div class="-mx-20 mt-5">
+                  <p>Route :</p>
+                  <p>Departure Time :</p>
+                </div>
+              </div>
+            </div>
+            <div class="grid grid-cols-1 w-full mt-14 ml-52 p-4">
+              <div class="flex">
+                <img class="w-7 h-7" src="images/seat-green.png" alt="" />
+                <p class="text-lime-700 sm:w-full -mr-12"><span id="seatRemaining">16</span> Seats Left</p>
+              </div>
+              <div>
+                <p>Dhaka-Sylhet</p>
+                <p>9.00 PM</p>
+              </div>
+            </div>
+            <div
+              class="flex gap-x-20 mx-auto w-full col-span-2 border justify-center"
+            >
+              <p>Boarding Point - Laxmipur</p>
+              <p>Dropping Point - Bogura</p>
+              <p>Est. Time - 11 Hour</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container lg:flex lg:mt-20">
+          <img src="images/info-devider.png" alt="" />
+          <div class="lg:mt-28">
+            <img src="images/fare.png" alt="" />
+            <h3 class="text-2xl font-semibold">550Tk</h3>
+            <p>Per Seat</p>
+          </div>
+        </div>
+      </section>
+      <!-- seats section starts  -->
+      <section class="container grid grid-cols-2">
+        <div>
+          <p id="connector" class="text-2xl font-semibold">Select Your Seat</p>
+          <div class="grid grid-cols-2 mt-10">
             <div class="flex">
-              <img class="w-7 h-7" src="images/seat-green.png" alt="" />
-              <p class="text-lime-700 sm:w-full -mr-12"><span id="seatRemaining">16</span> Seats Left</p>
+              <img src="images/seat-gray.png" alt="" />
+              <p>Available</p>
+            </div>
+            <div class="flex">
+              <img src="images/seat-green-filled.png" alt="" />
+              <p class="text-lime-700">Selected</p>
+            </div>
+          </div>
+          <div class="flex justify-end ">
+            <img src="images/sterring.png" alt="" />
+          </div>
+          <div>
+            <ul class="flex space-x-20 p-5">
+              <li class="p-4 rounded-md">A</li>
+              <li id="A1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="">A1</button>
+              </li>
+              <li id="A2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="A2">A2</button>
+              </li>
+              <li id="A3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="A3">A3</button>
+              </li>
+              <li id="A4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="A4">A4</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex space-x-20 p-5">
+              <li class="p-4 rounded-md">B</li>
+              <li id="B1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="B1">B1</button>
+              </li>
+              <li id="B2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="B2">B2</button>
+              </li>
+              <li id="B3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="B3">B3</button>
+              </li>
+              <li id="B4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="B4">B4</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex space-x-20 p-5">
+              <li class="p-4 rounded-md">C</li>
+              <li id="C1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="C1">C1</button>
+              </li>
+              <li id="C2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="C2">C2</button>
+              </li>
+              <li id="C3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="C3">C3</button>
+              </li>
+              <li id="C4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="C4">C4</button>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex space-x-20 p-5">
+              <li class="p-4 rounded-md">D</li>
+              <li id="D1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="D1">D1</button>
+              </li>
+              <li  id="D2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="D2">D2</button>
+              </li>
+              <li id="D3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="D3">D3</button>
+              </li>
+              <li id="D4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
+                <button class="D4">D4</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="text-2xl font-semibold mb-5">Select Your Seat</p>
+          <div id="home-screen" class="bg-red-300">
+            <div id="soldTicket" class="grid grid-cols-3 space-x-16 mb-5 bg-slate-200">
+              <p  class="font-bold">Seat <span id="seatSelected" class="text-lime-700">0</span></p>
+              <p class="font-bold">Class</p>
+              <p class="font-bold">Price</p>
+            </div>
+  
+  
+            <div class="flex space-x-24 mb-5">
+              <p class="font-bold">Total price</p>
+              <p>BDT <span id="totalCost">0</span></p>
+            </div>
+            <div class="mb-5">
+              <input type="text" placeholder="Have Any Coupon" />
+              <button class="bg-lime-800 p-2 rounded-lg text-white">apply</button>
+            </div>
+            <div class="flex space-x-24 mb-5">
+              <p class="font-bold">Grand Total</p>
+              <p>BDT <span id="totalGrandCost">0</span></p>
+            </div>
+            <p class="mb-5 font-bold">Passenger Name</p>
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input input-bordered input-sm w-full max-w-full mb-5"
+            />
+            <p class="mb-5 font-bold">Phone Number</p>
+            <input
+              type="number"
+              placeholder="Type here"
+              class="input input-bordered input-sm w-full max-w-full mb-5"
+            />
+            <p class="mb-5 font-bold">E-Mail ID</p>
+            <input
+              type="email"
+              placeholder="Type here"
+              class="input input-bordered input-sm w-full max-w-full mb-5"
+            />
+            <button onclick="play()" class="p-3 w-full bg-lime-600">Next</button>
+            <div class="flex gap-x-24">
+              <p>Terms and Conditions</p>
+              <p>Cancelation Policy</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- seats section ends  -->
+  
+  
+      <!-- footer starts -->
+      <section class="container">
+        <footer class="container bg-slate-900 text-white mx-auto">
+          <div class="grid grid-cols-2 m-10 p-14 items-center justify-center">
+            <div>
+              <h3 class="text-4xl font-extrabold mb-10">E-Ticket</h3>
+              <p>
+                E-Ticket is a digital platform to make your daily commuting
+                better.
+              </p>
             </div>
             <div>
-              <p>Dhaka-Sylhet</p>
-              <p>9.00 PM</p>
+              <p>Download our app</p>
+              <img src="images/playstore.svg" alt="" />
             </div>
           </div>
+          <hr class="w-full border-dotted text-white" />
           <div
-            class="flex gap-x-20 mx-auto w-full col-span-2 border justify-center"
+            class="grid grid-cols-2 items-center justify-center pb-10 pl-20 mt-10"
           >
-            <p>Boarding Point - Laxmipur</p>
-            <p>Dropping Point - Bogura</p>
-            <p>Est. Time - 11 Hour</p>
+            <p>@all rights reserved, P-Ticket services limited.2024</p>
+            <div class="flex gap-5">
+              <p>Terms & condition</p>
+              <p>Return & refund policy</p>
+              <p>Privacy policy</p>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="container lg:w-full lg:flex lg:mt-20 lg:ml-80">
-        <img src="images/info-devider.png" alt="" />
-        <div class="lg:mt-28">
-          <img src="images/fare.png" alt="" />
-          <h3 class="text-2xl font-semibold">550Tk</h3>
-          <p>Per Seat</p>
-        </div>
-      </div>
+        </footer>
+      </section>
+      <!-- footer ends  -->
     </section>
-    <!-- seats section starts  -->
-    <section class="container grid grid-cols-2">
-      <div>
-        <p id="connector" class="text-2xl font-semibold">Select Your Seat</p>
-        <div class="grid grid-cols-2 mt-10">
-          <div class="flex">
-            <img src="images/seat-gray.png" alt="" />
-            <p>Available</p>
-          </div>
-          <div class="flex">
-            <img src="images/seat-green-filled.png" alt="" />
-            <p class="text-lime-700">Selected</p>
-          </div>
-        </div>
-        <div class="flex justify-end ">
-          <img src="images/sterring.png" alt="" />
-        </div>
-        <div>
-          <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">A</li>
-            <li id="A1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="">A1</button>
-            </li>
-            <li id="A2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="A2">A2</button>
-            </li>
-            <li id="A3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="A3">A3</button>
-            </li>
-            <li id="A4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="A4">A4</button>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">B</li>
-            <li id="B1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="B1">B1</button>
-            </li>
-            <li id="B2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="B2">B2</button>
-            </li>
-            <li id="B3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="B3">B3</button>
-            </li>
-            <li id="B4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="B4">B4</button>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">C</li>
-            <li id="C1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="C1">C1</button>
-            </li>
-            <li id="C2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="C2">C2</button>
-            </li>
-            <li id="C3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="C3">C3</button>
-            </li>
-            <li id="C4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="C4">C4</button>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="flex space-x-20 p-5">
-            <li class="p-4 rounded-md">D</li>
-            <li id="D1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="D1">D1</button>
-            </li>
-            <li  id="D2" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="D2">D2</button>
-            </li>
-            <li id="D3" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="D3">D3</button>
-            </li>
-            <li id="D4" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
-              <button class="D4">D4</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div>
-        <p class="text-2xl font-semibold mb-5">Select Your Seat</p>
-        <div class="">
-          <div id="soldTicket" class="grid grid-cols-3 space-x-16 mb-5 bg-slate-200">
-            <p  class="font-bold">Seat <span id="seatSelected" class="text-lime-700">0</span></p>
-            <p class="font-bold">Class</p>
-            <p class="font-bold">Price</p>
-          </div>
-
-
-          <div class="flex space-x-24 mb-5">
-            <p class="font-bold">Total price</p>
-            <p>BDT <span id="totalCost">0</span></p>
-          </div>
-          <div class="mb-5">
-            <input type="text" placeholder="Have Any Coupon" />
-            <button class="bg-lime-800 p-2 rounded-lg text-white">apply</button>
-          </div>
-          <div class="flex space-x-24 mb-5">
-            <p class="font-bold">Grand Total</p>
-            <p>BDT <span id="totalGrandCost">0</span></p>
-          </div>
-          <p class="mb-5 font-bold">Passenger Name</p>
-          <input
-            type="text"
-            placeholder="Type here"
-            class="input input-bordered input-sm w-full max-w-full mb-5"
-          />
-          <p class="mb-5 font-bold">Phone Number</p>
-          <input
-            type="number"
-            placeholder="Type here"
-            class="input input-bordered input-sm w-full max-w-full mb-5"
-          />
-          <p class="mb-5 font-bold">E-Mail ID</p>
-          <input
-            type="email"
-            placeholder="Type here"
-            class="input input-bordered input-sm w-full max-w-full mb-5"
-          />
-          <button class="p-3 w-full bg-lime-600">Next</button>
-          <div class="flex gap-x-24">
-            <p>Terms and Conditions</p>
-            <p>Cancelation Policy</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- seats section ends  -->
-
+    
     <section>
-      <div
-        class="flex flex-col container mx-auto mt-20 items-center justify-center bg-gray-200 gap-y-5 hidden"
+      <div id="successPage"
+        class="flex flex-col container w-full h-screen mx-auto items-center justify-center bg-gray-200 gap-y-5 hidden fixed top-0 left-0"
       >
         <img class="mt-5" src="images/success.png" alt="" />
         <p class="text-lime-600 font-bold">SUCCESS</p>
@@ -363,42 +397,12 @@
           best service and deals for you.
         </h3>
         <p>Shortly you will find a confirmation in your email.</p>
-        <button class="text-white bg-lime-700 p-3 rounded-2xl w-[300px] mb-5">
+        <button onclick="pause()" class="text-white bg-lime-700 p-3 rounded-2xl w-[300px] mb-5">
           Continue
         </button>
       </div>
     </section>
-
-    <!-- footer starts -->
-    <section class="container">
-      <footer class="container bg-slate-900 text-white mx-auto">
-        <div class="grid grid-cols-2 m-10 p-14 items-center justify-center">
-          <div>
-            <h3 class="text-4xl font-extrabold mb-10">E-Ticket</h3>
-            <p>
-              E-Ticket is a digital platform to make your daily commuting
-              better.
-            </p>
-          </div>
-          <div>
-            <p>Download our app</p>
-            <img src="images/playstore.svg" alt="" />
-          </div>
-        </div>
-        <hr class="w-full border-dotted text-white" />
-        <div
-          class="grid grid-cols-2 items-center justify-center pb-10 pl-20 mt-10"
-        >
-          <p>@all rights reserved, P-Ticket services limited.2024</p>
-          <div class="flex gap-5">
-            <p>Terms & condition</p>
-            <p>Return & refund policy</p>
-            <p>Privacy policy</p>
-          </div>
-        </div>
-      </footer>
-    </section>
-    <!-- footer ends  -->
     <script src="utility.js"></script>
+    <script src="showSuccess.js"></script>
   </body>
 </html>

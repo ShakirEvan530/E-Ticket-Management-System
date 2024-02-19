@@ -39,4 +39,3 @@ function seatName(button){
   document.getElementById ('totalGrandCost').innerText= 550*ticket;
   
 }
-
