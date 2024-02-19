@@ -125,27 +125,27 @@
         </div>
       </section>
       <!-- coupon part starts -->
-      <section class="container">
+      <section class="container sm:grid grid-cols-1 sm:max-w[320px]">
         <p class="text-center text-4xl font-bold mb-6 mt-20">
           Best offers for you
         </p>
         <div class="container flex w-full justify-around mx-auto">
           <div class="flex bg-amber-500 items-center rounded-3xl px-6">
             <div class="">
-              <h3 class="text-xl font-medium">
+              <h3 class="lg:text-xl font-medium sm:text-sm">
                 15% OFF <br />on your next purchase
               </h3>
               <p>use by January 2024</p>
             </div>
             <div><img src="images/cupon-devider.png" alt="" /></div>
             <div>
-              <h3 class="text-xl font-medium">NEW15</h3>
+              <h3 class="text-xl font-medium sm:text-sm">NEW15</h3>
               <p>Coupon Code</p>
             </div>
           </div>
-          <div class="flex bg-pink-400 items-center rounded-3xl px-6">
+          <div class="flex bg-pink-400 items-center rounded-3xl lg:px-6 sm: px-0">
             <div class="">
-              <h3 class="text-xl font-medium">
+              <h3 class="lg:text-xl font-medium sm:text-sm">
                 20% OFF <br />on your next purchase
               </h3>
               <p>use by January 2024</p>
@@ -169,18 +169,18 @@
         <div>
           <div class="text-center w-full mt-10">
             <h3 class="text-3xl font-bold -mr-80">E Paribahan</h3>
-            <p class="text-xlfont-normal -mr-80">
+            <p class="text-xlfont-normal -mr-80 sm: max-w-[320px] mt-3">
               Yes, you can run unit tests and view the results directly within the
               app. The integrated testing features allow for a streamlined .
             </p>
           </div>
           <div class="lg:ml-10 sm:grid grid-cols-2">
-            <div class="flex border lg:m-10 bg-white lg:p-4 rounded-3xl gap-x-2">
+            <div class="flex border lg:m-10 bg-white lg:p-4 rounded-3xl gap-x-2 sm:flex max-w-[320px] mt-4">
               <div>
                 <img src="images/bus-logo.png" alt="" />
               </div>
               <div>
-                <h3 class="text-2xl font-bold">Green Line PariBahan</h3>
+                <h3 class="lg:text-2xl font-bold sm:text-xl max-w[320px]">Green Line PariBahan</h3>
                 <p>Coach-009-WEB ! AC_Business</p>
                 <div class="-mx-20 mt-5">
                   <p>Route :</p>
@@ -191,7 +191,7 @@
             <div class="grid grid-cols-1 w-full mt-14 ml-52 p-4">
               <div class="flex">
                 <img class="w-7 h-7" src="images/seat-green.png" alt="" />
-                <p class="text-lime-700 sm:w-full -mr-12"><span id="seatRemaining">16</span> Seats Left</p>
+                <p class="text-lime-700 sm:w-full lg:-mr-12 "><span id="seatRemaining" class="sm:-mr-0">16</span> Seats Left</p>
               </div>
               <div>
                 <p>Dhaka-Sylhet</p>
@@ -208,7 +208,7 @@
           </div>
         </div>
   
-        <div class="container lg:flex lg:mt-20 ml-10">
+        <div class="container lg:flex lg:mt-20 lg:ml-10 sm:ml-0">
           <img class="h-64 mt-14" src="images/info-devider.png" alt="" />
           <div class="lg:mt-28">
             <img src="images/fare.png" alt="" />
@@ -218,7 +218,7 @@
         </div>
       </section>
       <!-- seats section starts  -->
-      <section class="container grid grid-cols-2">
+      <section class="container lg:grid grid-cols-2">
         <div>
           <p id="connector" class="text-2xl font-semibold">Select Your Seat</p>
           <div class="grid grid-cols-2 mt-10">
@@ -235,7 +235,7 @@
             <img src="images/sterring.png" alt="" />
           </div>
           <div>
-            <ul class="flex space-x-20 p-5">
+            <ul class="lg:flex space-x-20 p-5 sm:flex flex-row space-x-0">
               <li class="p-4 rounded-md">A</li>
               <li id="A1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
                 <button class="">A1</button>
@@ -252,7 +252,7 @@
             </ul>
           </div>
           <div>
-            <ul class="flex space-x-20 p-5">
+            <ul class="lg:flex space-x-20 p-5 sm:flex flex-row space-x-0">
               <li class="p-4 rounded-md">B</li>
               <li id="B1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
                 <button class="B1">B1</button>
@@ -269,7 +269,7 @@
             </ul>
           </div>
           <div>
-            <ul class="flex space-x-20 p-5">
+            <ul class="lg:flex space-x-20 p-5 sm:flex flex-row space-x-0">
               <li class="p-4 rounded-md">C</li>
               <li id="C1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
                 <button class="C1">C1</button>
@@ -286,7 +286,7 @@
             </ul>
           </div>
           <div>
-            <ul class="flex space-x-20 p-5">
+            <ul class="lg:flex space-x-20 p-5 sm:flex flex-row space-x-0">
               <li class="p-4 rounded-md">D</li>
               <li id="D1" onclick="seatName(this)" class="bg-slate-400 p-4 rounded-md w-[110px]">
                 <button class="D1">D1</button>
